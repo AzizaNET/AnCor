@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\Ancor\\AncorAPI\\AncorAPI.csproj": {}
+    "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\AzizaNET\\AnCor\\AncorAPI\\AncorAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\Ancor\\AncorAPI\\AncorAPI.csproj": {
+    "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\AzizaNET\\AnCor\\AncorAPI\\AncorAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\Ancor\\AncorAPI\\AncorAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\AzizaNET\\AnCor\\AncorAPI\\AncorAPI.csproj",
         "projectName": "AncorAPI",
-        "projectPath": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\Ancor\\AncorAPI\\AncorAPI.csproj",
+        "projectPath": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\AzizaNET\\AnCor\\AncorAPI\\AncorAPI.csproj",
         "packagesPath": "C:\\Users\\Aziza_Abdurakhmonova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\Ancor\\AncorAPI\\obj\\",
+        "outputPath": "C:\\Users\\Aziza_Abdurakhmonova\\source\\repos\\AzizaNET\\AnCor\\AncorAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aziza_Abdurakhmonova\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
